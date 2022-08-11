@@ -1,0 +1,39 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+p { margin: 0; }
+
+body { background-color: hsl(30, 38%, 92%); }
+
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#child { width: 900px; background-color:hsl(0, 0%, 100%); }
+#perfume, #text, #priceGray { color: hsl(228, 10%, 61%); }
+#namePerfume { font-size: 50px; color: hsl(212, 21%, 14%); }
+#price { color: hsl(158, 36%, 37%); font-size: 55px; }
+
+#info-container { margin: 35px; }
+
+#namePerfume, #price { font-family: 'Fraunces', serif; }
+#perfume, #text, #btn, #priceGray { font-family: 'Montserrat', sans-serif; }
+
+#perfume, #text, #namePerfume { margin-bottom: 25px; }
+#text { font-size: 1.5rem; }
+#perfume { font-weight: 500; letter-spacing: 10px; }
+
+#priceGray { margin-left: 2.8rem; font-size: 20px; }
+
+#btn {
+    border: none;
+    margin-top: 30px;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+#btn:hover { background-color: hsl(158, 32%, 23%); }
+
